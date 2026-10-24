@@ -1,0 +1,103 @@
+{
+  "headline_rows": 5967,
+  "headline_rows_before_dedupe": 5991,
+  "cross_source_label_conflicts_removed": 4,
+  "near_duplicates_of_test_removed_from_train": 7,
+  "class_counts": {
+    "negative": 951,
+    "neutral": 3487,
+    "positive": 1529
+  },
+  "class_counts_by_split": {
+    "fpb_test": {
+      "negative": 91,
+      "neutral": 431,
+      "positive": 204
+    },
+    "news_test": {
+      "negative": 16,
+      "neutral": 0,
+      "positive": 7
+    },
+    "semeval_test": {
+      "negative": 31,
+      "neutral": 100,
+      "positive": 19
+    },
+    "train": {
+      "negative": 673,
+      "neutral": 2419,
+      "positive": 1081
+    },
+    "validation": {
+      "negative": 140,
+      "neutral": 537,
+      "positive": 218
+    }
+  },
+  "split_sizes": {
+    "fpb_test": 726,
+    "news_test": 23,
+    "semeval_test": 150,
+    "train": 4173,
+    "validation": 895
+  },
+  "sources": {
+    "FinancialPhraseBank": {
+      "licence": "CC BY-NC-SA 3.0",
+      "label_provenance": "Human annotators with a finance background. At least 50% agreement.",
+      "label_level": "Investor-view sentiment of a financial-news sentence, not a general headline.",
+      "rows": 4827
+    },
+    "SemEval-2007 Task 14": {
+      "licence": "Shared-task data redistributed by MichiganNLP/Affective-Text-Individual-Annotations. No separate licence file is in that mirror.",
+      "label_provenance": "Six human annotators gave valence from -100 to 100. The mean is mapped with the task's own coarse bins: <= -50 negative, >= 50 positive, otherwise neutral.",
+      "label_level": "Sentiment of the whole news headline.",
+      "rows": 985
+    },
+    "EmoBank newspaper": {
+      "licence": "EmoBank v1.4, Buechel and Hahn, EACL 2017. MASC newspaper sentences.",
+      "label_provenance": "Human reader and writer valence on a 1-5 scale, averaged in emobank.csv. Negative if valence <= 2.5, positive if valence >= 3.5. The band between those cuts is not assigned a class.",
+      "label_level": "Newspaper sentence, not a headline and not a finance label.",
+      "rows": 155
+    },
+    "NewsMTSC": {
+      "licence": "MIT",
+      "citation": "Hamborg and Donnay, EACL 2021",
+      "label_provenance": "Five human coders. Kept only where the coders agreed.",
+      "label_level": "Sentiment toward a named person in a political news sentence. Not a headline label.",
+      "rows_not_used_for_headline_training": 9885,
+      "unique_sentences": 8802
+    }
+  },
+  "rejected_sources": [
+    {
+      "name": "dnakhla/us-news-headlines-enriched",
+      "rows": 143142,
+      "reason": "Sentiment labels are produced by cardiffnlp/twitter-roberta-base-sentiment-latest. They are model output, not human labels, so they are not used as ground truth."
+    },
+    {
+      "name": "MASHXD/investing_financial_news_headlines",
+      "rows": 13259,
+      "reason": "The card does not say whether the labels are human, market-direction, or automatic. Undocumented labels are not used as ground truth."
+    },
+    {
+      "name": "Okcan/news-headlines-classifier",
+      "rows": 350,
+      "reason": "Too small, and the card does not identify who assigned the sentiment labels."
+    }
+  ],
+  "sarcasm_examples": "No downloadable news-headline set was found that pairs a human sarcasm mark with a human sentiment label. Sarcasm is recorded as unknown. The project's sarcasm headlines are not assigned a sentiment, because a sarcasm mark is not evidence of negative sentiment.",
+  "size_limit": "Added MASC newspaper sentences from EmoBank whose human valence is at or below 2.5 or at or above 3.5. The SemEval headlines inside EmoBank are not loaded a second time. Larger headline files found online use a pretrained sentiment model or do not document who labeled them, so they were not added.",
+  "columns": [
+    "headline",
+    "sentiment",
+    "sarcasm",
+    "literal_sentiment",
+    "topic",
+    "source",
+    "label_source",
+    "label_level",
+    "split"
+  ]
+}

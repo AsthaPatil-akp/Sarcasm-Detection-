@@ -1,0 +1,53 @@
+{
+  "labels": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "max_len": 39,
+  "embed_dim": 100,
+  "lstm_units": 64,
+  "vocab_size": 4040,
+  "pad_id": 0,
+  "oov_id": 1,
+  "min_freq": 2,
+  "seed": 42,
+  "glove_used": true,
+  "glove_words_found": 3833,
+  "embedding_trainable": true,
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "loss": "sparse_categorical_crossentropy",
+  "class_weight": {
+    "negative": 2.6674546887312847,
+    "neutral": 0.5616392898622864,
+    "positive": 1.1839804127317244
+  },
+  "batch_size": 32,
+  "epochs_planned": 20,
+  "epochs_ran": 10,
+  "best_epoch": 7,
+  "early_stopping_patience": 3,
+  "reduce_lr_on_plateau": {
+    "patience": 1,
+    "factor": 0.5,
+    "min_lr": 1e-05
+  },
+  "dropout": {
+    "embedding": 0.2,
+    "after_bilstm": 0.4,
+    "after_dense": 0.3
+  },
+  "activations": {
+    "lstm_output": "tanh",
+    "lstm_gates": "sigmoid",
+    "hidden": "relu",
+    "output": "softmax"
+  },
+  "split": {
+    "train": 3385,
+    "validation": 725,
+    "test": 726,
+    "fractions": "70/15/15 stratified"
+  }
+}

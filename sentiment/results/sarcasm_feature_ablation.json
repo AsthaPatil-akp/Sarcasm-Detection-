@@ -1,0 +1,11 @@
+{
+  "status": "evaluated",
+  "validation_rows": 160,
+  "eval_rows": 80,
+  "sentiment_only_macro_f1": 0.7071273675047259,
+  "with_sarcasm_probability_macro_f1": 0.684012284012284,
+  "improved": false,
+  "note": "Fit on one half of a validation sample and scored on the other half. The sarcasm detector was only called. Its weights and threshold were not changed. Sarcasm probability is not treated as a sentiment label.",
+  "eval_rows_sarcasm_probability_at_least_0.5": 22,
+  "sentiment_only_macro_f1_on_high_sarcasm_slice": 0.5568627450980391
+}

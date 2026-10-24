@@ -1,0 +1,55 @@
+{
+  "rows": 4173,
+  "class_counts": {
+    "negative": 673,
+    "neutral": 2419,
+    "positive": 1081
+  },
+  "length_mean": 12.068775461298825,
+  "length_p50": 11.0,
+  "length_p95": 26.0,
+  "top_tokens_by_class": {
+    "neutral": [
+      "allcaps",
+      "company",
+      "say",
+      "share",
+      "finland",
+      "finnish",
+      "eur",
+      "business",
+      "new",
+      "group",
+      "not",
+      "service"
+    ],
+    "negative": [
+      "allcaps",
+      "eur",
+      "profit",
+      "mn",
+      "year",
+      "say",
+      "net",
+      "company",
+      "sale",
+      "period",
+      "quarter",
+      "finnish"
+    ],
+    "positive": [
+      "allcaps",
+      "company",
+      "eur",
+      "say",
+      "sale",
+      "profit",
+      "year",
+      "net",
+      "finnish",
+      "increase",
+      "period",
+      "m"
+    ]
+  }
+}

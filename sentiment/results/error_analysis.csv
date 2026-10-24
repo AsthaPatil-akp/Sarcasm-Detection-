@@ -1,0 +1,49 @@
+headline,gold,predicted,confidence,p_negative,p_neutral,p_positive,improved_predicted,test
+"While I cant understand what theyre saying , its impressive to watch him hit that ball at those speeds .",neutral,negative,0.8496177196502686,0.8496177196502686,0.0809081345796585,0.0694740638136863,positive,fpb_test
+More than a third of the original participants dropped out due to nausea and other side effects .,negative,negative,0.8734993934631348,0.8734993934631348,0.0720146894454956,0.0544858239591121,neutral,fpb_test
+"Also , a six-year historic analysis is provided for these markets .",neutral,neutral,0.9819958209991456,0.0008246834622696,0.9819958209991456,0.0171794984489679,positive,fpb_test
+Sales fell abroad but increased in Finland .,neutral,negative,0.6280378103256226,0.6280378103256226,0.02247198484838,0.349490225315094,positive,fpb_test
+"It projected revenue of $ 2.2 billion to $ 2.3 billion , slightly higher than analyst estimates of $ 2.19 billion .",positive,negative,0.6286495923995972,0.6286495923995972,0.0399298556149005,0.3314205706119537,negative,fpb_test
+"The Americas represents 25 % of Gemalto 's billing , and Latin America is one of the fastest growing regions for the company .",neutral,neutral,0.8645716905593872,0.0086624044924974,0.8645716905593872,0.1267659217119217,positive,fpb_test
+"The Group owns and operates a fleet of more than 800dwt , while container capacity is 17,000 TEUs , and manages a diversified fleet of its own railway rolling stock of over 17,000 units .",neutral,neutral,0.9224287867546082,0.0006881491863168,0.9224287867546082,0.0768830776214599,positive,fpb_test
+Finnish plumbing and heating systems supplier Uponor Corporation ( OMX Helsinki : UNR1V ) said on Tuesday ( 12 August ) that its board of directors has authorised the management to proceed with a company-wide cost reduction program .,positive,neutral,0.3955479264259338,0.2214662879705429,0.3955479264259338,0.382985770702362,neutral,fpb_test
+"Its main business area , the Glass Machinery Group of Glaston Technologies , is the global market leader in glass processing machines .",positive,neutral,0.8244578242301941,0.0011583958985283,0.8244578242301941,0.1743837147951126,neutral,fpb_test
+I thank Jarmo Ukonaho warmly for his contribution and wish him all the best in the future challenges . '',neutral,positive,0.924770712852478,0.0091922944411635,0.0660370439291,0.924770712852478,positive,fpb_test
+It will report full-year results on August 22 .,neutral,neutral,0.7858071327209473,0.1274885088205337,0.7858071327209473,0.0867043808102607,negative,fpb_test
+"The result will also be burdened by increased fixed costs associated with operations in China , and restructuring costs in Japan .",negative,negative,0.8492860198020935,0.8492860198020935,0.0397454090416431,0.1109685599803924,positive,fpb_test
+Results are expected late in 2006 .,neutral,negative,0.4379251301288605,0.4379251301288605,0.3369260132312774,0.225148931145668,negative,fpb_test
+"Finnish Suominen Corporation that makes wipes , nonwovens , and flexible packaging , has a plant near Warsaw , in Poland , that makes flexible packaging .",neutral,negative,0.4549226462841034,0.4549226462841034,0.146235242486,0.3988420963287353,positive,fpb_test
+Earnings per share EPS in the first quarter amounted to a loss of EUR0 .20 .,neutral,negative,0.8555067181587219,0.8555067181587219,0.0247629806399345,0.1197302266955375,negative,fpb_test
+"In 2010 , the Marimekko Group s net sales were EUR 73,297 thousand ( EUR 72,473 thousand ) and operating profit was EUR 8,169 thousand ( EUR 6,291 thousand ) .",neutral,positive,0.57335364818573,0.157082587480545,0.2695637047290802,0.57335364818573,positive,fpb_test
+"However , the broker gave an `` outperform '' recommendation on the stock .",positive,neutral,0.7292762398719788,0.0179645121097564,0.7292762398719788,0.25275918841362,neutral,fpb_test
+"Pretax profit totalled EUR 80.8 mn , compared to a loss of EUR 13.1 mn in the corresponding period in 2009 .",positive,negative,0.8112465143203735,0.8112465143203735,0.0069122747518122,0.1818411648273468,negative,fpb_test
+The executive group will participate in the adjustments with a fixed-term 5 % salary cut .,positive,negative,0.6131103038787842,0.6131103038787842,0.21241195499897,0.174477681517601,neutral,fpb_test
+"Nokia Multimedia 's net sales totaled EUR 5.7 bn , up 45 % from the corresponding period in 2005 .",positive,positive,0.792270302772522,0.1860911101102829,0.0216385945677757,0.792270302772522,negative,fpb_test
+Schuey sees Ferrari unveil new car,neutral,positive,0.4965505599975586,0.1096545681357383,0.3937948942184448,0.4965505599975586,positive,semeval_test
+Sarkozy letter surprises French cartoons hearing,neutral,neutral,0.6695972084999084,0.1921784281730651,0.6695972084999084,0.1382244080305099,positive,semeval_test
+US Airways boosts bid for Delta,neutral,positive,0.5075536966323853,0.1097603440284729,0.3826860189437866,0.5075536966323853,positive,semeval_test
+'Stomp' steps to No. 1 at box office,positive,neutral,0.8768889307975769,0.0507342964410781,0.8768889307975769,0.0723767802119255,neutral,semeval_test
+EU will urge China to go green,neutral,positive,0.5396894812583923,0.0063102832064032,0.4540002644062042,0.5396894812583923,positive,semeval_test
+Teacher charged with sex assault,negative,positive,0.4116989374160766,0.2752461433410644,0.3130548596382141,0.4116989374160766,neutral,semeval_test
+Too little sleep may mean too fat kids,neutral,negative,0.8479499816894531,0.8479499816894531,0.0650027990341186,0.0870472639799118,negative,semeval_test
+Models' health guidelines -- will they help?,neutral,neutral,0.7691743969917297,0.0319674797356128,0.7691743969917297,0.1988582015037536,positive,semeval_test
+Male sweat can raise hormones,neutral,neutral,0.5528165102005005,0.1227587684988975,0.5528165102005005,0.324424684047699,positive,semeval_test
+YouTube told to drop celeb sex video,neutral,negative,0.6614832878112793,0.6614832878112793,0.146384447813034,0.1921323239803314,negative,semeval_test
+James Brown's 5-year-old son left out of will,neutral,negative,0.7299649119377136,0.7299649119377136,0.1738992035388946,0.0961358547210693,negative,semeval_test
+Doomsday Clock ticking away,neutral,negative,0.507012128829956,0.507012128829956,0.2754841148853302,0.2175037264823913,negative,semeval_test
+US Airways boosts bid for Delta,neutral,positive,0.5075536966323853,0.1097603440284729,0.3826860189437866,0.5075536966323853,positive,semeval_test
+Howell takes one shot lead in Sony Open,neutral,neutral,0.602023184299469,0.0529957488179206,0.602023184299469,0.3449810743331909,positive,semeval_test
+Martins leads Newcastle fightback,neutral,negative,0.3990446031093597,0.3990446031093597,0.2740537822246551,0.3269016146659851,positive,semeval_test
+"Houston, she's got some problems",neutral,negative,0.908287763595581,0.908287763595581,0.0251629911363124,0.0665492266416549,negative,semeval_test
+Zoo polar bear to have root canal,neutral,negative,0.4761957824230194,0.4761957824230194,0.2759445011615753,0.2478596568107605,negative,semeval_test
+Zach Braff says he has 'mild depression',neutral,neutral,0.3529660403728485,0.3449968695640564,0.3529660403728485,0.3020370900630951,negative,semeval_test
+News Baby pandas! Baby pandas! Baby pandas!,positive,negative,0.4797340333461761,0.4797340333461761,0.2592522203922272,0.2610137164592743,negative,semeval_test
+"Personal health: for teenagers, the car is the danger zone",neutral,neutral,0.8297938108444214,0.052902415394783,0.8297938108444214,0.1173038110136985,negative,semeval_test
+"But as the day wore on, the Red Sox tried harder and by Tuesday night were able to get the player they wanted for their lineup.",positive,,,,,,negative,news_test
+What is needed is a message delivered personally by Bush and other top officials not only about the inexcusable treatment of Ibrahim but of the contemptuous approach to democratic values.,negative,,,,,,neutral,news_test
+That is a huge omission.,negative,,,,,,positive,news_test
+"""I feel bad for Jorge, he's a good friend of mine,"" Bengie said.",negative,,,,,,positive,news_test
+"""I refuse to sell it.""",negative,,,,,,neutral,news_test
+"Another 15 percent to 18 percent are ""overexploited,"" and 9 percent to 10 percent have been ""depleted or are recovering from depletion.""",negative,,,,,,positive,news_test
+Phone calls were monitored.,negative,,,,,,neutral,news_test
+"""We were all appalled,""",negative,,,,,,neutral,news_test

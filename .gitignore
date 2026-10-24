@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# GitHub rejects files over 100 MB. This GloVe file is 331 MB.
+# Download glove.6B.100d.txt and place it in embeddings/ before training.
+embeddings/glove.6B.100d.txt

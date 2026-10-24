@@ -1,0 +1,32 @@
+fpb_test
+              precision    recall  f1-score   support
+
+    negative     0.6636    0.8022    0.7264        91
+     neutral     0.9193    0.6868    0.7862       431
+    positive     0.5680    0.8186    0.6707       204
+
+    accuracy                         0.7383       726
+   macro avg     0.7170    0.7692    0.7277       726
+weighted avg     0.7885    0.7383    0.7462       726
+
+semeval_test
+              precision    recall  f1-score   support
+
+    negative     0.4561    0.8387    0.5909        31
+     neutral     0.8088    0.5500    0.6548       100
+    positive     0.2400    0.3158    0.2727        19
+
+    accuracy                         0.5800       150
+   macro avg     0.5017    0.5682    0.5061       150
+weighted avg     0.6639    0.5800    0.5932       150
+
+news_test
+              precision    recall  f1-score   support
+
+    negative     0.9000    0.5625    0.6923        16
+     neutral     0.0000    0.0000    0.0000         0
+    positive     0.6667    0.8571    0.7500         7
+
+    accuracy                         0.6522        23
+   macro avg     0.5222    0.4732    0.4808        23
+weighted avg     0.8290    0.6522    0.7099        23

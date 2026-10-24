@@ -1,0 +1,92 @@
+[
+  {
+    "epoch": 1,
+    "loss": 1.0287585258483887,
+    "accuracy": 0.4397315979003906,
+    "val_loss": 0.9647465944290161,
+    "val_accuracy": 0.47597765922546387,
+    "val_macro_f1": 0.4646654833959138,
+    "learning_rate": 0.001,
+    "decision": "Validation loss improved."
+  },
+  {
+    "epoch": 2,
+    "loss": 0.8980264663696289,
+    "accuracy": 0.5384615659713745,
+    "val_loss": 0.8722642660140991,
+    "val_accuracy": 0.5586591958999634,
+    "val_macro_f1": 0.5496196334994741,
+    "learning_rate": 0.001,
+    "decision": "Validation loss improved."
+  },
+  {
+    "epoch": 3,
+    "loss": 0.7679818272590637,
+    "accuracy": 0.6268871426582336,
+    "val_loss": 0.8419205546379089,
+    "val_accuracy": 0.5832402110099792,
+    "val_macro_f1": 0.5750572581057268,
+    "learning_rate": 0.001,
+    "decision": "Validation loss improved."
+  },
+  {
+    "epoch": 4,
+    "loss": 0.6903752088546753,
+    "accuracy": 0.6589983105659485,
+    "val_loss": 0.7724785804748535,
+    "val_accuracy": 0.6469273567199707,
+    "val_macro_f1": 0.6311681977442848,
+    "learning_rate": 0.001,
+    "decision": "Validation loss improved."
+  },
+  {
+    "epoch": 5,
+    "loss": 0.5864877104759216,
+    "accuracy": 0.72346031665802,
+    "val_loss": 0.7774087190628052,
+    "val_accuracy": 0.6525139808654785,
+    "val_macro_f1": 0.6373223518916755,
+    "learning_rate": 0.001,
+    "decision": "Validation loss did not improve. Learning rate moves from 0.001000 to 0.000500. Early-stopping wait 1 of 3."
+  },
+  {
+    "epoch": 6,
+    "loss": 0.5227155685424805,
+    "accuracy": 0.7565300464630127,
+    "val_loss": 0.716688871383667,
+    "val_accuracy": 0.6882681846618652,
+    "val_macro_f1": 0.6617631786224444,
+    "learning_rate": 0.0005,
+    "decision": "Validation loss improved."
+  },
+  {
+    "epoch": 7,
+    "loss": 0.4775315225124359,
+    "accuracy": 0.7797747254371643,
+    "val_loss": 0.7421789765357971,
+    "val_accuracy": 0.6815642714500427,
+    "val_macro_f1": 0.6596397129227145,
+    "learning_rate": 0.0005,
+    "decision": "Validation loss did not improve. Learning rate moves from 0.000500 to 0.000250. Early-stopping wait 1 of 3."
+  },
+  {
+    "epoch": 8,
+    "loss": 0.4287566542625427,
+    "accuracy": 0.7996644973754883,
+    "val_loss": 0.726206362247467,
+    "val_accuracy": 0.7016759514808655,
+    "val_macro_f1": 0.6743048734334268,
+    "learning_rate": 0.00025,
+    "decision": "Validation loss did not improve. Learning rate moves from 0.000250 to 0.000125. Early-stopping wait 2 of 3."
+  },
+  {
+    "epoch": 9,
+    "loss": 0.4237382113933563,
+    "accuracy": 0.8061347007751465,
+    "val_loss": 0.7218307256698608,
+    "val_accuracy": 0.6960893869400024,
+    "val_macro_f1": 0.6703826739016246,
+    "learning_rate": 0.000125,
+    "decision": "Validation loss did not improve. Learning rate moves from 0.000125 to 0.000063. Early-stopping wait 3 of 3. Stop. Weights return to epoch 6."
+  }
+]
